@@ -28,6 +28,7 @@ public class BookController {
 		return mav;
 	}
 
+	// adding books to the book table
 	@PostMapping("/book")
 	public ModelAndView save(Book book) {
 
