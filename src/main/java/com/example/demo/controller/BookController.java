@@ -44,6 +44,7 @@ public class BookController {
 
 	}
 
+	// retrieving all the books from book table
 	@GetMapping("/books")
 	public ModelAndView getBooks() {
 		ModelAndView mav = new ModelAndView();
