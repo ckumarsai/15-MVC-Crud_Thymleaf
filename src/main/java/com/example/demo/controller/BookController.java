@@ -63,7 +63,8 @@ public class BookController {
 		return mav;
 		
 	}
-	
+
+	// deleting books from book table
 	@GetMapping("/edit")
 	public ModelAndView editBook(@RequestParam("bookId") Integer bookId) {
 		Book bookObj=service.getBookById(bookId);
